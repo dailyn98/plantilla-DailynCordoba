@@ -212,7 +212,7 @@
 	</section>
 	<!-- FIN BENEFITCS-->
 	<!-- TESTIMONIALS-->
-	<section class="testimonials bakc-blue-claro pt-0">
+	<section class="testimonials bakc-blue-claro pt-0 position-relative">
 
 		<div class="container">
 			<div class="d-flex">
@@ -225,7 +225,7 @@
 					<div class="item d-flex ">
 						<div class="col-md-8 d-wrap marg__tes">
 							<a class="fond__tes"><i>Jhon Esmith</i></a>
-							<p class="desc__tes">The creams are fantastic and wonderful, they have made me feel younger, and have given my skin incredible softness, 100% recommended their products</p>
+							<p class="desc__tes">The creams are fantastic and wonderful, they have made me feel younger, and have given my skin incredible softness, 100% recommended their produc555555555ts</p>
 							<button class="btn btn__edit">Read More</button>
 						</div>
 						<div class="col-md-4">
@@ -255,6 +255,11 @@
 				</div>
 			</div>
 		</div>
+		<div class="mask-icons-line ">
+				<div class="icon-line">
+				</div>
+				<div class="icon-ovle-top"></div>
+			</div>
 	</section>
 	<!-- FIN TESTIMONIALS-->
 	<!-- subscribeS-->

@@ -808,7 +808,6 @@ p {
 
 .testimonials {
     background: rgba(24, 204, 231, 0.16);
-    padding: 60px 0;
 }
 
 .title__tes {
@@ -944,15 +943,15 @@ p {
     width: 185px;
     background: linear-gradient(45deg, #14bcdf, #0176bc);
     border-radius: 50% 50% 0 0;
-    opacity: .5;
+    opacity: .3;
     margin-left: -55px;
 }
 
 .ovle-middle {
-    height: 312px;
-    width: 150px;
+    height: 326px;
+    width: 180px;
     border: 1px solid #0176bc;
-    border-radius: 67px 67px 67px 67px;
+    border-radius: 100px;
     opacity: .5;
     margin-bottom: -168px;
     position: relative;
