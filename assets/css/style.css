@@ -26,7 +26,10 @@ header {
     position: relative;
     display: flex;
 }
-
+.icons__headers {
+    display: flex;
+    align-items: center;
+}
 .video__header {
     width: 100%;
     flex: 1;
@@ -93,8 +96,13 @@ header {
     border: 1px solid #FF7A59;
 }
 
+/*.btn__star:hover {
+    color: #0176BC;
+    background: #fff;
+}*/
 .btn__star:hover{
     opacity: .8;
+    color: #0176BC;
 }
 
 nav {
@@ -151,7 +159,120 @@ nav#navbar.sticky {
     color: #016DAD;
     margin-top: 2px;
 }
+/*-------- MENU-----------*/
+.header .burger {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    width: 2.5rem;
+    height: auto;
+    border: none;
+    opacity: 1;
+    visibility: visible;
+    background: transparent;
+  }
+   @media only screen and (min-width: 768px) {
+       .header .burger {
+           display: none;
+           opacity: 0;
+           visibility: hidden;
+      }
+  }
+  .header .burger-line {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    height: 4px;
+    margin: 5px 0px 0px -30px;
+    background: #016DAD;
+    transform: rotate(0deg);
+    transition: all 0.3s ease-in-out;
+    border: 1px solid white;
+}
+   .header .menu {
+       position: fixed;
+       top: 0;
+       left: -19rem;
+       width: 19rem;
+       height: 100%;
+       z-index: 999;
+       opacity: 0;
+       overflow-y: auto;
+       visibility: hidden;
+       background: white;
+       box-shadow: var(--shadow-medium);
+       transition: all 0.5s ease;
+  }
+   @media only screen and (min-width: 768px) {
+       .header .menu {
+           position: relative;
+           top: 0;
+           left: 0;
+           width: auto;
+           opacity: 1;
+           visibility: visible;
+           background: none;
+           box-shadow: none;
+      }
+  }
+  .header .menu.is-active {
+    left: 0rem;
+    opacity: 1;
+    visibility: visible;
+    height: 190px;
+    width: 290px;
+}
+   .header .menu-block {
+       width: 100%;
+       height: auto;
+       margin: 2rem 0;
+  }
+   @media only screen and (min-width: 768px) {
+       .header .menu-block {
+           margin: 0 auto;
+      }
+  }
+   .header .menu-item {
+       display: block;
+       margin: 0;
+  }
+   @media only screen and (min-width: 768px) {
+       .header .menu-item {
+           position: relative;
+           display: inline-block;
+           margin: 0 0.625rem;
+      }
 
+  }
+   .header .menu-link {
+       display: block;
+  }
+   .header .menu-link:hover {
+       color: var(--color-pink-600);
+  }
+   @media only screen and (min-width: 768px) {
+       .header .menu-link {
+           padding: 0.5rem 0;
+      }
+  }
+   .header .overlay {
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       z-index: 999;
+       opacity: 0;
+       visibility: hidden;
+       background: rgba(0, 0, 0, 0.7);
+       transition: all 0.35s ease-in-out;
+  }
+   .header .overlay.is-active {
+       display: block;
+       opacity: 1;
+       visibility: visible;
+  }
+/*--------MENU-----------*/
 .header__icons a {
     padding: 6px 10px 6px 10px;
     border-radius: 50px;
@@ -202,7 +323,9 @@ section.abuot .container {
     display: flex;
     flex-wrap: nowrap;
 }
-
+.abuot {
+    padding: 0px 0px 30px 0px;
+}
 .about__img>div>img:nth-child(1) {
     margin-top: 17em;
     position: relative;
@@ -578,6 +701,8 @@ h4.title__about {
 }
 .btn__shop:hover{
     opacity: .8;
+    color: #0176BC;
+   
 }
 .btn__shop:before {
     content: "";
@@ -729,6 +854,7 @@ h3.title__img:after {
 }
 .btn__sub:hover{
     opacity: .8;
+    color: #0176BC;
 }
 .subscribe {
     padding: 40px 0px 80px 0px;
@@ -790,7 +916,7 @@ p {
     background: #035C92;
     text-align: center;
     margin-top: 20px;
-    padding: 30px 0;
+    padding: 22px 90px 15px 150px;
     position: relative;
     color: #fff;
 }
@@ -942,9 +1068,11 @@ p {
     margin-left: 526px;
     box-shadow: 0px 0px 0px 1px #ff7a59;
     border: 2px solid #daf7fb;
+    z-index: 3;
 }
 .btn__edit:hover{
     opacity: .8;
+    color: #0176BC;
 }
 .marg__tes {
     padding: 56px 100px 175px 282px;
@@ -1082,11 +1210,238 @@ margin-left: -128px!important;
     z-index: 2;
     margin-left: -10%;
 }
+@media (min-width: 0px) and (max-width: 280px) {
+    header {
+        height: 80vh;
+    }
+    .cont__header h1 {
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 2.6rem;
+    }
+    .header .menu.is-active {
+        width: 200px;
+    }
+    .navbar--logo {
+        width: 55px;
+        height: 52px;
+        margin-left: 13px;
+    }
+    .header__icons, .shoop__nav {
+        display: none;
+    }
+    .btn__star {
+        width: 220px;
+        height: 50px;
+    }
+    .btn__star:before {
+        height: 58px;
+        width: 230px;
+        margin-top: -11px;
+        margin-left: -55px;
+    }
+    .products__carou .owl-carousel .owl-item .content-img {
+        width: 190px;
+        height: 230px;
+    }
+    .products__carou .owl-stage-outer {
+        padding: 0px 0px 0px 36px;
+    }
+    .products__carou .card-body {
+        width: 190px;
+    }
+    .icon_card {
+        margin-left: 125px;
+    }
+    .products__carou {
+        padding: 0px 0px 0px 0px;
+    }
+    .products__carou .pb-5 {
+        padding-bottom: 0px!important;
+    }
+    .title__pro {
+        z-index: 9999;
+        position: relative;
+    }
+    .abouts__imag img {
+        height: 325px;
+        margin-left: 40px;
+    }
+    img.img__no {
+        display: none;
+    }
+    .abouts__imag img {
+        margin-left: 10px;
+    }
+    .fraja-blue {
+        display: none;
+    }
+    .abouts__imag img {
+        height: 325px;
+        margin-left: 20px;
+    }
+    .about__img>div>img:nth-child(1) {
+        margin-top: 7em;
+    }
+    h4.title__about {
+        padding: 17px 53px 17px 15px;
+        font-size: 25px;
+        line-height: 0px;
+        margin-top: 0px;
+    }
+    .benefits span {
+        font-size: 26px;
+    }
+    .marg__icon {
+        margin: 0px 25px 40px 0px!important
+    }
+    .blue__cir {
+        margin: 0px 22px 40px -25px;
+    }
+    .info__abouts p {
+        padding: 0px 12px 6px 12px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: -20px;
+    }
+  .info__abouts .btn-unic {
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 20px;
+    }
+    .title__shop {
+        padding: 0px 10px 0px 10px;
+        font-size: 30px;
+    }
+    .shop__galeria .container img {
+        width: 200px;
+        height: 200px;
+    }
+    .imag__lef, .imag__center, .imag__rigth {
+        margin: 0px 0px 30px 26px;
+        border-radius: 0px!important;
+    }
+   
+    .marg__shop {
+        margin-bottom: 0px; 
+    }
+    .img__b {
+        border-radius: 0px;
+    }
+    .btn__shop {
+        position: relative;
+        width: 215px;
+        height: 56px;
+    }
+    .img__d {
+        border-radius: 0px;
+    }
+    .btn__shop:before {
+        height: 64px;
+        width: 223px;
+        margin-top: -14px;
+        margin-left: -55px;
+    }
+    .shop__galeria {
+        padding-bottom: 50px;
+    }
+    .benefits .circle-white {
+        display: none;
+    }
+    .img__benef img {
+        width: 229px;
+        height: 290px;
+        margin-left: -23px;
+    }
+    .icons {
+        margin: 24px 0px 0px 0px;
+    }
+    .des__benef {
+        padding-left: 0px;
+        margin-top: 45px;
+    }
+    h3.title__img:after {
+        height: 162px;
+        width: 253px;
+        margin-top: 63px;
+    left: 12px;
+    }
+    .title__img {
+        font-size: 38px;
+        margin-top: -214px;
+        margin-left: -50px;
+    }
+    .img__tes {
+        width: 230px!important;
+        height: 230px;
+        margin-left: 10px;
+    }
+    .desc__tes {
+        margin-bottom: 15px;
+        padding: 0px 15px 0px 15px;
+    }
+    .fond__tes {
+        margin-left: 18px;
+    }
+    .title__tes {
+        font-size: 30px;
+        margin-left: 27px;
+        margin-top: 35px;
+    }
+    .rectangular-radius-blue{
+        height: 110px!important;
+        width: 30px;
+    }
+    .marg__tes {
+        padding: 20px 0px 0px 0px;
+    }
+    .subscribe {
+        padding: 40px 0px 50px 0px;
+    }
+    .btn__sub {
+        font-size: 22px;
+        padding: 10px 44px 10px 44px;
+        margin-left: 28px;
+        z-index: 1;
+    }
+    .form__sub {
+        flex-wrap: wrap;
+    }
+    .sub__email {
+        margin-right: 20px;
+        margin-bottom: 25px;
+    }  
+    .cont__foot {
+        top: -10px;
+    }
+    .cont__sub {
+        margin-left: 5px;
+        padding: 0px;
+    }
+    .title__sub {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .copyright__logo {
+        margin-right: -30px;
+    }
+    .li__footer {
+        padding: 0px 0px 0px 30px;
+    }
+    .li__foot {
+        margin-left: 73px;
+        padding: 0px;
+    }
+}
 
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 281px) and (max-width: 411px) {
+
+}
+
+@media (min-width: 412px) and (max-width: 767px) {
     /*--------RESPONSIVE PARA MOVILES-----------*/
-.cont__header h1 {
-        margin-top: -125px;
+    .cont__header h1 {
+        margin-top: 45px;
+        font-size: 3.6rem;
     }
 .header__icons , .shoop__nav {
         display: none;
@@ -1098,14 +1453,17 @@ margin-left: -128px!important;
         height: 325px;
         margin-left: 40px;
     }
-    .fraja-blue {
-     width: 281px;
+    .marg__tes a{
+        margin-left: 10px;
+    }
+        .fraja-blue {
+        display: none;
     }
     h4.title__about{
         font-size: 25px;
         line-height: 45.58px;
         padding: 0px 72px 0px 20px;
-        margin-left: 40px; 
+        margin-top: 0px;
     }
     .info__abouts p{
         padding: 0px 20px 0px 20px;
@@ -1199,6 +1557,7 @@ margin-left: -128px!important;
     .title__sub {
         font-size: 30px;
        line-height: 45px;
+       margin-left: 45px;
     }
     .sub__email {
         width: 330px;
@@ -1214,9 +1573,9 @@ margin-left: -128px!important;
         margin-left: 140px;
         padding: 0;
     }
-    .copyright__logo {
-        margin-right: 0px;
-    }
+    .copyright__logo{
+        margin-right: 180px;
+        }
     .center__rect {
         margin-left: 195px!important;
     }
@@ -1224,12 +1583,15 @@ margin-left: -128px!important;
         display: none;
     }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 900px) {
     .cont__header h1 {
-        margin-top: -52px;
+        margin-top: 20px;
     }
     header {
-        height: 80vh;
+        height: 65vh;
+    }
+    .header__icons,.shoop__nav {
+        display: none;
     }
     .circle-white {
         display: none;
@@ -1318,4 +1680,47 @@ margin-left: -128px!important;
         width: 240px;
         margin-left: 241px;
     }
+    .img__benef img {
+        width: 210px;
+        height: 306px;
+        margin-left: -23px;
+    }
+    h3.title__img:after {
+        height: 149px;
+        width: 227px;
+        margin-top: 63px;
+        left: -22px;
+    }
+    .title__img {
+        font-size: 24px;
+        margin-top: -201px;
+        margin-left: -13px;
+    }
+    .des__benef {
+        padding-left: 0px;
+        text-align: justify;
+    }
+    h4.title__about {
+        font-size: 27px;
+        line-height: 40px;
+        padding: 0px 46px 0px 22px;
+    }
+    .marg__title {
+        margin-bottom: 30px!important;
+        margin-left: 0!important;
+    }
+    .blue__cir{
+        margin: 0px 30px 40px 0px;
+    }
+    .marg__icon {
+        margin: 0px 30px 40px 26px;
+    }
+    .benefits {
+        padding: 60px 13px 30px 40px;
+    }
+    .benefits span {
+        font-size: 25px;
+    }
+    
 }
+

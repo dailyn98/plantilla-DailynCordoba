@@ -9,3 +9,16 @@
   @media (min-width: 1025px) and (max-width: 1366px){
  /*--------RESPONSIVE PARA PANTALLAS GRANDE, LAPTOP-----------*/
   }
+
+  
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"> </button>
+  <span class="navbar-toggler-icon"></span>
+  <div class="collapse navbar-collapse justify-content-center nav__items" id="navbarNavAltMarkup">
+					<ul id="menu" class="nav justify-content-center">
+						<li class="nav-item"><a class="nav-link active nav__items" aria-current="page" href="about.html">About US</a>
+						</li>
+						<li class="nav-item"><a class="nav-link nav__items" href="menu.html"></a></li>
+						<li class="nav-item"><a class="nav-link nav__items" href="#">FAQ's</a></li>
+						<li class="nav-item"><a class="nav-link nav__items" href="contacts.html">Contact Us</a></li>
+					</ul>
+				</div>

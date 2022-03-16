@@ -6,12 +6,14 @@
  // video: true
     loop:true,
     autoplayTimeout: 4000,
+    autoplay:true,
     smartSpeed: 400,
     center: true,
  responsiveClass:true,
  responsive:{
      0:{
          items:1,
+         margin:80,
      },
      400:{
          items:1,
@@ -33,7 +35,7 @@ $('.productos-crousel').owlCarousel({
     autoplayTimeout: 4000,
     smartSpeed: 400,
     center: true,
-    //autoplay:true,
+    autoplay:true,
     //autoplayTimeout:1000,
     //autoplayHoverPause:true,   
     //nav: false,
@@ -61,42 +63,36 @@ $('.productos-crousel').owlCarousel({
         }
     }
 })
- const btn = document.querySelector("button");
-const post = document.querySelector(".post");
-const widget = document.querySelector(".star-widget");
-const editBtn = document.querySelector(".edit");
 
-btn.onclick = ()=>{
-    widget.style.display="none";
-    post.style.display="block";
-    editBtn.onclick = ()=>{
-        widget.style.display="block";
-        post.style.display="none";
-    }
-    return false;
-}
 window.addEventListener("scroll", function() {
     var nav = document.querySelector("nav");
     nav.classList.toggle("sticky", window.scrollY > 0);
   });
-  
-  
-//  const navbarMenu = document.getElementById("menu");
-  //const burgerMenu = document.getElementById("burger");
-  //const bgOverlay = document.getElementById("overlay");
+
+
+  const navbarMenu = document.getElementById("menu");
+  const burgerMenu = document.getElementById("burger");
+  const bgOverlay = document.getElementById("overlay");
   
   // Show Menu when Click the Burger
   // Hide Menu when Click the Overlay
- // if (burgerMenu && navbarMenu && bgOverlay) {
-//   burgerMenu.addEventListener("click", () => {
-  //        navbarMenu.classList.toggle("is-active");
-//      bgOverlay.classList.toggle("is-active");
-//   });
+  if (burgerMenu && navbarMenu && bgOverlay) {
+      burgerMenu.addEventListener("click", () => {
+          navbarMenu.classList.toggle("is-active");
+          bgOverlay.classList.toggle("is-active");
+      });
   
-  //    bgOverlay.addEventListener("click", () => {
-    //      navbarMenu.classList.toggle("is-active");
-     //     bgOverlay.classList.toggle("is-active");
-    //  });
- // }
-
+      bgOverlay.addEventListener("click", () => {
+          navbarMenu.classList.toggle("is-active");
+          bgOverlay.classList.toggle("is-active");
+      });
+  }
+  
+  // Hide Menu when Click the Links
+  document.querySelectorAll(".menu-link").forEach((link) => {
+      link.addEventListener("click", () => {
+          navbarMenu.classList.remove("is-active");
+          bgOverlay.classList.remove("is-active");
+      });
+  });
 

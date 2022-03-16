@@ -27,17 +27,24 @@
 				<div class="d-flex">
 					<a class="navbar-brand" href="#"><img src="assets/img/LOGO.png" class="logo navbar--logo img-responsive" alt="logo"></a><a class="skin__header" href="#">SKIN CARE</a>
 				</div>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"> </button>
-				<span class="navbar-toggler-icon"></span>
-				<div class="collapse navbar-collapse justify-content-center nav__items" id="navbarNavAltMarkup">
-					<ul id="menu" class="nav justify-content-center">
-						<li class="nav-item"><a class="nav-link active nav__items" aria-current="page" href="about.html">About US</a>
-						</li>
-						<li class="nav-item"><a class="nav-link nav__items" href="menu.html">Shop By Category</a></li>
-						<li class="nav-item"><a class="nav-link nav__items" href="#">FAQ's</a></li>
-						<li class="nav-item"><a class="nav-link nav__items" href="contacts.html">Contact Us</a></li>
-					</ul>
-				</div>
+                <div class="navbar justify-content-center nav__items">
+					<button type="button" class="burger" id="burger">
+					  <span class="burger-line"></span>
+					  <span class="burger-line"></span>
+					  <span class="burger-line"></span>
+					</button>
+					<span class="overlay" id="overlay"></span>
+					<div class="menu" id="menu">
+					  <ul class="menu-block">
+						<li class="menu-item"><a class="menu-link nav__items" href="about.html">About Us</a></li>
+						<li class="menu-item"><a class="menu-link nav__items" href="menu.html">Shop By Category</a></li>
+						<li class="menu-item"><a class="menu-link nav__items" href="faq-s.html">FAQ's</a></li>
+						<li class="menu-item"><a class="menu-link nav__items" href="contacts.html">Contacts Us</a></li>
+					  </ul>
+					</div>
+				  </div>
+                <div class="icons__headers">             
+
 				<div class="header__icons">
 					<a><i class="fa fa-envelope"></i></a>
 					<a class="icon__nav"><i class="fa fa-map-marker "></i></a>
@@ -48,22 +55,26 @@
 					<a class="barra"></a>
 					<a><i class="fa fa-shopping-cart icon_b"></i></a>
 				</div>
+			</div>   
 			</nav>
 			<div class="mask-icons ms-auto">
 				<div class="icon-circle">
 				</div>
 				<div class="icon-ovle"></div>
 			</div>
-			<div class="container d-flex">
-				<div class="px-4 py-5 m-auto text-center position-relative">
-					<h1 class="display-5 fw-bold">Become The Best Version <br>Of Yourself</h1>
-					<div class="col-lg-6 mx-auto">
-						<div class="d-sm-flex justify-content-sm-center">
-							<button class="btn btn__star">Get Started</button>
+			<div class="container">
+				<div class="row">
+					<div class=" px-4 py-5 text-center position-relative">
+						<div class="">
+							<h1 class="display-5 fw-bold">Become The Best Version <br>Of Yourself</h1>
+							<div class="col-lg-6 mx-auto">
+								<div class="d-sm-flex justify-content-sm-center">
+									<button class="btn btn__star">Get Started</button>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-
+					  </div>
+			</div>
 			</div>
 			<div class="mask-icons-line ">
 				<div class="icon-line">
@@ -76,7 +87,7 @@
 	<!-- CAROUSEL PRODUCTS-->
 	<section class="products__carou bakc-blue-claro position-relative overflow-hidden">
 		<div class="rectangular-radius-blue center__rect"></div>
-		<div class="container container pb-5 mb-5">
+		<div class="container pb-5 mb-5">
 			<h2 class="title__pro">Best Sellers</h2>
 			<div class="productos-crousel owl-carousel">
 				<div class="item">
@@ -210,7 +221,7 @@
 				<img class="imag__lef img__a" src="assets/img/CATEGORIA-1.jpg">
 				</div>
 				<div class="col-12 col-md-4">
-				<img class="col-12 imag__center" src="assets/img/CATEGORIA-2.jpg">
+				<img class="imag__center" src="assets/img/CATEGORIA-2.jpg">
 				</div>
 				<div class="col-12 col-md-4">
 				<img class="imag__rigth img__b" src="assets/img/CATEGORIA-3.jpg">
@@ -397,15 +408,15 @@
 			</div>
 		</div>
 		<div class="cont__footer justify-content-between">
-           <div class="row">
-			<div class="col-12 col-md-9">
-				<p>Copyright © 2022 All rights reserved | This Website Was Designed And Developed by</p>
+			
+			 
+				 <p>Copyright © 2022 All rights reserved | This Website Was Designed And Developed by</p>
+			 
+			 
+				 <a href="#"><img src="assets/img/logo-silvera.png" class="copyright__logo foot__logo" alt="logo" width="100"></a>
+			
 			</div>
-			<div class="col-12 col-md-3">
-				<a href="#"><img src="assets/img/logo-silvera.png" class="copyright__logo foot__logo" alt="logo" width="100"></a>
-			</div>
-		   </div>
-		</div>
+		 </div>
 	</footer>
 	<!--FIN FOOTER-->
 
