@@ -107,6 +107,42 @@
 						</div>
 					</div>
 				</div>
+				<div class="item">
+					<div class="card">
+					<div class="content-img"><img src="assets/img/PRODUCTO-2.jpeg" class="card-img-top" alt="producto1"></div>
+						<div class="card-body">
+							<div class="cont__card justify-content-between">
+								<a class="barra__card"><i class="text__card">25$</i></a>
+								<a><i class="fa fa-shopping-cart icon_card"></i></a>
+							</div>
+							<h3 class="card-text title__card">Caudalie</h3>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+					<div class="content-img"><img src="assets/img/PRODUCTO-2.jpeg" class="card-img-top" alt="producto1"></div>
+						<div class="card-body">
+							<div class="cont__card justify-content-between">
+								<a class="barra__card"><i class="text__card">25$</i></a>
+								<a><i class="fa fa-shopping-cart icon_card"></i></a>
+							</div>
+							<h3 class="card-text title__card">Caudalie</h3>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+					<div class="content-img"><img src="assets/img/PRODUCTO-2.jpeg" class="card-img-top" alt="producto1"></div>
+						<div class="card-body">
+							<div class="cont__card justify-content-between">
+								<a class="barra__card"><i class="text__card">25$</i></a>
+								<a><i class="fa fa-shopping-cart icon_card"></i></a>
+							</div>
+							<h3 class="card-text title__card">Caudalie</h3>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -141,12 +177,27 @@
 	<section class="shop__galeria">
 		<h2 class="title__shop">Shop By Category</h2>
 		<div class="container">
-			<img class="imag__lef img__a" src="assets/img/CATEGORIA-1.jpg">
-			<img class="imag__center" src="assets/img/CATEGORIA-2.jpg">
-			<img class="imag__rigth img__b" src="assets/img/CATEGORIA-3.jpg">
-			<img class="imag__lef img__c" src="assets/img/CATEGORIA-4.jpg">
-			<img class="imag__center" src="assets/img/CATEGORIA-5.jpg">
-			<img class="imag__rigth img__d" src="assets/img/CATEGORIA-6.jpg">
+			<div class="row">
+				<div class="col-md-4 marg__shop">
+				<img class="imag__lef img__a" src="assets/img/CATEGORIA-1.jpg">
+				</div>
+				<div class="col-md-4">
+				<img class="imag__center" src="assets/img/CATEGORIA-2.jpg">
+				</div>
+				<div class="col-md-4">
+				<img class="imag__rigth img__b" src="assets/img/CATEGORIA-3.jpg">
+				</div>
+				<div class="col-md-4">
+				<img class="imag__lef img__c" src="assets/img/CATEGORIA-4.jpg">
+				</div>
+				<div class="col-md-4">
+				<img class="imag__center" src="assets/img/CATEGORIA-5.jpg">
+				</div>
+				<div class="col-md-4">
+				<img class="imag__rigth img__d" src="assets/img/CATEGORIA-6.jpg">
+				</div>
+			</div>
+
 		</div>
 		<button class="btn btn__shop">View More</button>
 	</section>
@@ -195,16 +246,16 @@
 						<div class="col-md-8 d-wrap marg__tes">
 							<a class="fond__tes"><i>Jhon Esmith</i></a>
 							<p class="desc__tes">The creams are fantastic and wonderful, they have made me feel younger, and have given my skin incredible softness, 100% recommended their products</p>
-							<button class="btn btn__edit">Read More</button>
+		
 						</div>
 						<div class="col-md-4">
 							<img class="img__tes" src="assets/img/person_3.png">
 						</div>
+                         </div>
 						<div class="item d-flex ">
 							<div class="col-md-8 d-wrap marg__tes">
 								<a class="fond__tes"><i>Luis Smith</i></a>
 								<p class="desc__tes">The creams are fantastic and wonderful, they have made me feel younger, and have given my skin incredible softness, 100% recommended their products</p>
-								<button class="btn btn__edit">Read More</button>
 							</div>
 							<div class="col-md-4">
 								<img class="img__tes" src="assets/img/person_3.png">
@@ -214,7 +265,7 @@
 							<div class="col-md-8 d-wrap marg__tes">
 								<a class="fond__tes"><i>Maria Smith</i></a>
 								<p class="desc__tes">The creams are fantastic and wonderful, they have made me feel younger, and have given my skin incredible softness, 100% recommended their products</p>
-								<button class="btn btn__edit">Read More</button>
+								
 							</div>
 							<div class="col-md-4">
 								<img class="img__tes" src="assets/img/person_3.png">
@@ -222,6 +273,7 @@
 						</div>
 					</div>
 				</div>
+				<button class="btn btn__edit">Read More</button>
 			</div>
 		</div>
 	</section>

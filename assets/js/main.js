@@ -2,11 +2,12 @@
  $('.testimonial-slider').owlCarousel({
   //autoplayhoverpause: true,
   //autoplaytimeout:100,
-  items: 1,
-  nav: true,
-  loop: false,
   //animateOut: 'fadeOut',
  // video: true
+    loop:true,
+    autoplayTimeout: 4000,
+    smartSpeed: 400,
+    center: true,
  responsiveClass:true,
  responsive:{
      0:{
@@ -19,19 +20,22 @@
          stagePadding:100,
      },
      800:{
-         items:3,
+         items:1,
          margin:10,
      },
      1000:{
          items:1,
-        nav:true,
+         nav:true,
      }
  }
 });
 
 $('.productos-crousel').owlCarousel({
-    loop:false,
+    loop:true,
     nav:false,
+    autoplayTimeout: 4000,
+    smartSpeed: 400,
+    center: true,
     //autoplay:true,
     //autoplayTimeout:1000,
     //autoplayHoverPause:true,   
@@ -57,7 +61,7 @@ $('.productos-crousel').owlCarousel({
         1000:{
             items:3,
             margin:30,
-            stagePadding:250,
+            //stagePadding:40,
         }
     }
 })
