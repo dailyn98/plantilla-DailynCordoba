@@ -93,6 +93,10 @@ header {
     border: 1px solid #FF7A59;
 }
 
+.btn__star:hover{
+    opacity: .8;
+}
+
 nav {
     position: fixed!important;
     position: relative;
@@ -210,6 +214,8 @@ section.abuot .container {
 
 .about__img {
     position: relative;
+    margin-top: -60px;
+    margin-bottom: 60px;
 }
 
 .fraja-blue {
@@ -334,7 +340,7 @@ h4.title__about {
     padding: 12px 60px 13px 61px;
 }
 
-.info__abouts .btn-unic:hover {
+.info__abouts .btn-unic:hover{
     opacity: .8;
 }
 
@@ -570,7 +576,9 @@ h4.title__about {
     margin-top: 40px;
     z-index: 3;
 }
-
+.btn__shop:hover{
+    opacity: .8;
+}
 .btn__shop:before {
     content: "";
     position: absolute;
@@ -719,7 +727,9 @@ h3.title__img:after {
     border: 2px solid white;
     padding: 12px 71px 13px 70px;
 }
-
+.btn__sub:hover{
+    opacity: .8;
+}
 .subscribe {
     padding: 40px 0px 80px 0px;
 }
@@ -933,7 +943,9 @@ p {
     box-shadow: 0px 0px 0px 1px #ff7a59;
     border: 2px solid #daf7fb;
 }
-
+.btn__edit:hover{
+    opacity: .8;
+}
 .marg__tes {
     padding: 56px 100px 175px 282px;
 }
