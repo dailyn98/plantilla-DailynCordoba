@@ -81,7 +81,7 @@
 			<div class="productos-crousel owl-carousel">
 				<div class="item">
 					<div class="card">
-						<div class="content-img"><img src="assets/img/PRODUCTO-2.jpeg" class="card-img-top" alt="producto1"></div>
+						<div class="content-img"><img src="assets/img/PRODUCTO-1.jpeg" class="card-img-top" alt="producto1"></div>
 						<div class="card-body">
 							<div class="cont__card justify-content-between">
 								<a class="barra__card"><i class="text__card">25$</i></a>
@@ -108,7 +108,19 @@
 
 				<div class="item">
 					<div class="card">
-						<div class="content-img"><img src="assets/img/PRODUCTO-2.jpeg" class="card-img-top" alt="producto1"></div>
+						<div class="content-img"><img src="assets/img/PRODUCTO-3.jpeg" class="card-img-top" alt="producto1"></div>
+						<div class="card-body">
+							<div class="cont__card justify-content-between">
+								<a class="barra__card"><i class="text__card">25$</i></a>
+								<a><i class="fa fa-shopping-cart icon_card"></i></a>
+							</div>
+							<h3 class="card-text title__card">Caudalie</h3>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+					<div class="content-img"><img src="assets/img/PRODUCTO-1.jpeg" class="card-img-top" alt="producto1"></div>
 						<div class="card-body">
 							<div class="cont__card justify-content-between">
 								<a class="barra__card"><i class="text__card">25$</i></a>
@@ -132,19 +144,7 @@
 				</div>
 				<div class="item">
 					<div class="card">
-					<div class="content-img"><img src="assets/img/PRODUCTO-2.jpeg" class="card-img-top" alt="producto1"></div>
-						<div class="card-body">
-							<div class="cont__card justify-content-between">
-								<a class="barra__card"><i class="text__card">25$</i></a>
-								<a><i class="fa fa-shopping-cart icon_card"></i></a>
-							</div>
-							<h3 class="card-text title__card">Caudalie</h3>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="card">
-					<div class="content-img"><img src="assets/img/PRODUCTO-2.jpeg" class="card-img-top" alt="producto1"></div>
+					<div class="content-img"><img src="assets/img/PRODUCTO-3.jpeg" class="card-img-top" alt="producto1"></div>
 						<div class="card-body">
 							<div class="cont__card justify-content-between">
 								<a class="barra__card"><i class="text__card">25$</i></a>
@@ -308,9 +308,9 @@
 			</div>
 		</div>
 		<div class="mask-icons-line ">
-				<div class="icon-line">
+				<div class="icon-line test-line">
 				</div>
-				<div class="icon-ovle-top"></div>
+				<div class="icon-ovle-top test__ovle"></div>
 			</div>
 	</section>
 	<!-- FIN TESTIMONIALS-->

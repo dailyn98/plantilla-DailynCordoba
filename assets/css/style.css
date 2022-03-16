@@ -918,7 +918,7 @@ p {
 }
 
 .marg__tes {
-    padding: 60px 0px 100px 0px;
+    padding: 56px 100px 175px 282px;
 }
 
 .testimonials .owl-nav {
@@ -982,7 +982,12 @@ p {
     background: #0176bc;
     height: 2px;
 }
-
+.test-line{
+    width: 236px!important;
+}
+.test__ovle{ 
+margin-left: -128px!important;
+}
 .icon-ovle-top {
     height: 230px;
     width: 185px;
