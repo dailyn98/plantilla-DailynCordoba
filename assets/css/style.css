@@ -882,3 +882,97 @@ p {
 .testimonials .owl-nav {
     float: right;
 }
+
+.mask-icons {
+    display: flex;
+    align-items: baseline;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    float: right;
+    right: 0;
+    margin-top: 9%;
+    z-index: -1;
+}
+
+.icon-ovle {
+    width: 200px;
+    border: 1px solid #B7E7F3;
+    height: 150px;
+    border-radius: 80px 0 0 80px;
+}
+
+.icon-circle {
+    height: 80px;
+    width: 80px;
+    margin-right: -92px;
+}
+
+.circle-ms {
+    height: 100px;
+    width: 100px;
+    right: 22px;
+    margin-bottom: -58px;
+    margin-left: auto;
+}
+
+.icon-circle,
+.circle-ms {
+    background: linear-gradient(45deg, #14bcdf, #0176bc);
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    opacity: .2;
+}
+
+.mask-icons-line {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+}
+
+.icon-line {
+    width: 300px;
+    background: #0176bc;
+    height: 2px;
+}
+
+.icon-ovle-top {
+    height: 230px;
+    width: 185px;
+    background: linear-gradient(45deg, #14bcdf, #0176bc);
+    border-radius: 50% 50% 0 0;
+    opacity: .5;
+    margin-left: -55px;
+}
+
+.ovle-middle {
+    height: 312px;
+    width: 150px;
+    border: 1px solid #0176bc;
+    border-radius: 67px 67px 67px 67px;
+    opacity: .5;
+    margin-bottom: -168px;
+    position: relative;
+}
+
+.mask-miltiple-circle {
+    margin-left: -50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.circle-white {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background: white;
+    margin-left: -190px;
+    margin-bottom: -130px;
+}
