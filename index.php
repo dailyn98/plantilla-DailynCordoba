@@ -49,6 +49,7 @@
 					<a><i class="fa fa-shopping-cart icon_b"></i></a>
 				</div>
 			</nav>
+			div.
 			<div class="container d-flex">
 				<div class="px-4 py-5 m-auto text-center position-relative">
 					<h1 class="display-5 fw-bold">Become The Best Version <br>Of Yourself</h1>
@@ -63,7 +64,7 @@
 	</header>
 	<!-- HEADER-->
 	<!-- CAROUSEL PRODUCTS-->
-	<section class="products__carou">
+	<section class="products__carou bakc-blue-claro">
 		<div class="rectangular-radius-blue"></div>
 		<div class="container">
 			<h2 class="title__pro">Best Sellers</h2>
@@ -139,6 +140,7 @@
 	<!-- FIN ABOUT-->
 	<!-- SHOP GALERIA-->
 	<section class="shop__galeria">
+	<div class="rectangular-radius-blue"></div>
 		<h2 class="title__shop">Shop By Category</h2>
 		<div class="container">
 			<img class="imag__lef img__a" src="assets/img/CATEGORIA-1.jpg">
@@ -186,9 +188,14 @@
 	</section>
 	<!-- FIN BENEFITCS-->
 	<!-- TESTIMONIALS-->
-	<section class="testimonials">
+	<section class="testimonials bakc-blue-claro pt-0">
+		
 		<div class="container">
-			<h3 class="title__tes">What do our customers say</h3>
+			<div class="d-flex">
+			<div class="rectangular-radius-blue m-0" style="    height: 150px;"></div>
+				<h3 class="title__tes">What do our customers say</h3>
+			</div>
+			
 			<div class="row">
 				<div class="testimonial-slider owl-carousel">
 					<div class="item d-flex ">
