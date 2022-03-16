@@ -12,16 +12,12 @@
  responsive:{
      0:{
          items:1,
-         margin:10,
      },
      400:{
          items:1,
-         margin:30,
-         stagePadding:100,
      },
      800:{
          items:1,
-         margin:10,
      },
      1000:{
          items:1,
@@ -52,7 +48,6 @@ $('.productos-crousel').owlCarousel({
         400:{
             items:1,
             margin:30,
-            stagePadding:100,
         },
         800:{
             items:3,
