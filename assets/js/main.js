@@ -16,8 +16,9 @@
      400:{
          items:1,
      },
-     800:{
+     700:{
          items:1,
+         margin:100,
      },
      1000:{
          items:1,
@@ -49,9 +50,9 @@ $('.productos-crousel').owlCarousel({
             items:1,
             margin:30,
         },
-        800:{
+        768:{
             items:3,
-            margin:10,
+           // margin:10,
         },
         1000:{
             items:3,

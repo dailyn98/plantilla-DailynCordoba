@@ -1224,3 +1224,98 @@ margin-left: -128px!important;
         display: none;
     }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .cont__header h1 {
+        margin-top: -52px;
+    }
+    header {
+        height: 80vh;
+    }
+    .circle-white {
+        display: none;
+    }
+    .products__carou {
+        padding: 0px;
+    }
+    .products__carou .owl-stage-outer {
+        padding: 0px!important;
+    }
+    .abuot{
+        padding: 0px 0px 40px 0px;
+    }
+   .info__about {
+        margin-top: 102px;
+    }
+    .fraja-blue {
+        width: 300px;
+    }
+    .abouts__imag img {
+        height: 330px;
+    }
+    .about__img>div>img:nth-child(1) {
+        margin-top: 10em;
+    }
+    .img__no{
+        display: none;
+    }
+    .imag__lef {
+        margin-left: 55px;
+    }
+    .imag__center {
+        margin-left: 25px;
+    }
+    .imag__rigth {
+        margin-left: 0px;
+    }
+    .shop__galeria .container img {
+        width: 170px;
+        height: 169px;
+    }
+    .marg__shop {
+        margin-bottom: 40px;
+    }
+    .aline__shop {
+        flex-wrap: wrap;
+    }
+    .marg__tes {
+        padding: 50px 60px 130px 100px;
+    }
+    .li__footer {
+        padding: 0px 0px 0px 40px;
+    }
+    .li__footer i {
+        font-size: 25px;
+    }
+    .cont__foot {
+        padding-left: 60px;
+    }
+    .copyright__logo {
+        margin-left: 40px;
+    }
+    .title__sub {
+        margin: 0px 0px 25px -30px;
+    }
+    .btn__sub {
+        font-size: 28px;
+        padding: 10px 58px 13px 58px;
+        margin-left: -25px;
+    }
+    .sub__email {
+        width: 275px;
+    }
+    .img__tes {
+        width: 190px!important;
+        height: 200px;
+    }
+    .title__tes {
+    margin-left: 25px;
+    margin-top: 52px;
+    }
+    .marg__tes {
+        padding: 10px 40px 120px 80px;
+    }
+    .btn__edit {
+        width: 240px;
+        margin-left: 241px;
+    }
+}
