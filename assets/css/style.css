@@ -274,6 +274,7 @@ section.abuot .container {
 .pa__about {
     margin-bottom: 10px;
 }
+
 .icon_card {
     padding: 10px 12px 10px 12px;
     border-radius: 50px;
@@ -281,6 +282,7 @@ section.abuot .container {
     margin-left: 145px;
     color: #fff;
 }
+
 
 /*CLASES UNIVERSALES*/
 
@@ -341,10 +343,12 @@ h4.title__about {
 
 
 /*-------------- Carousel Products-------------*/
+
 .products__carou {
     padding: 0px 0px 90px 0px;
     background: rgba(24, 204, 231, 0.16);
 }
+
 .icon_card {
     padding: 10px 12px 10px 12px;
     border-radius: 50px;
@@ -377,6 +381,7 @@ h4.title__about {
     text-align: center;
     margin-bottom: 15px;
 }
+
 .products__carou .card-body {
     width: 209px;
     height: 48px;
@@ -395,32 +400,31 @@ h4.title__about {
     overflow: hidden;
 }
 
-
 .products__carou .owl-item .card {
-    transform: translate3d(0, 0, 0); /* DO NOT REMEMBER WHERE TU PUT THIS, SEARCH FOR 3D ACCELERATION */
-   transform: scale(0.9);
- 
-   transition: all .25s ease-in-out; 
-   margin: 50px 0; /* OVERWRITE PLUGIN MARGIN */
-  }
- 
-  .products__carou .owl-item .item .card {
-     -webkit-transition: 0.3s;
+    transform: translate3d(0, 0, 0);
+    /* DO NOT REMEMBER WHERE TU PUT THIS, SEARCH FOR 3D ACCELERATION */
+    transform: scale(0.9);
+    transition: all .25s ease-in-out;
+    margin: 50px 0;
+    /* OVERWRITE PLUGIN MARGIN */
+}
+
+.products__carou .owl-item .item .card {
+    -webkit-transition: 0.3s;
     /*  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1); */
- 
-     -o-transition: 0.3s;
-     transition: 0.3s;
-     -webkit-transform: scale(0.80);
-     -ms-transform: scale(0.80);
-     transform: scale(0.80);
- }
- 
- .products__carou .owl-item.center .item .card {
-     -webkit-transform: scale(1.15);
-     -ms-transform: scale(1.15);
-     transform: scale(1.15);
- }
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    transform: scale(0.80);
+}
+
+.products__carou .owl-item.center .item .card {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
 
 .content-img:hover {
     border-color: #18CCE7!important;
@@ -447,9 +451,12 @@ h4.title__about {
     margin-top: -9px;
     text-align: center;
 }
+
 .products__carou .owl-stage-outer {
     padding: 0px 0px 0px 100px;
 }
+
+
 /*--------------Fin Carousel Products-------------*/
 
 
@@ -463,9 +470,11 @@ h4.title__about {
     height: auto;
     position: relative;
 }
+
 .marg__shop {
     margin-bottom: 67px;
 }
+
 .shop__galeria:before {
     content: "";
     position: absolute;
@@ -514,9 +523,9 @@ h4.title__about {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
-.marg__shop{
-    
-}
+
+.marg__shop {}
+
 .imag__lef {
     margin-left: 115px;
 }
@@ -907,6 +916,7 @@ p {
     box-shadow: 0px 0px 0px 1px #ff7a59;
     border: 2px solid #daf7fb;
 }
+
 .marg__tes {
     padding: 60px 0px 100px 0px;
 }
@@ -961,6 +971,8 @@ p {
     width: fit-content;
     height: fit-content;
     display: flex;
+    position: absolute;
+    bottom: 0;
     align-items: center;
     z-index: -1;
 }
