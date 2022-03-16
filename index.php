@@ -49,6 +49,11 @@
 					<a><i class="fa fa-shopping-cart icon_b"></i></a>
 				</div>
 			</nav>
+			<div class="mask-icons ms-auto">
+				<div class="icon-circle">
+				</div>
+				<div class="icon-ovle"></div>
+			</div>
 			<div class="container d-flex">
 				<div class="px-4 py-5 m-auto text-center position-relative">
 					<h1 class="display-5 fw-bold">Become The Best Version <br>Of Yourself</h1>
@@ -58,19 +63,25 @@
 						</div>
 					</div>
 				</div>
+
+			</div>
+			<div class="mask-icons-line ">
+				<div class="icon-line">
+				</div>
+				<div class="icon-ovle-top"></div>
 			</div>
 		</div>
 	</header>
 	<!-- HEADER-->
 	<!-- CAROUSEL PRODUCTS-->
-	<section class="products__carou">
+	<section class="products__carou bakc-blue-claro position-relative overflow-hidden">
 		<div class="rectangular-radius-blue"></div>
-		<div class="container">
+		<div class="container container pb-5 mb-5">
 			<h2 class="title__pro">Best Sellers</h2>
 			<div class="productos-crousel owl-carousel">
 				<div class="item">
 					<div class="card">
-					<div class="content-img"><img src="assets/img/PRODUCTO-2.jpeg" class="card-img-top" alt="producto1"></div>
+						<div class="content-img"><img src="assets/img/PRODUCTO-2.jpeg" class="card-img-top" alt="producto1"></div>
 						<div class="card-body">
 							<div class="cont__card justify-content-between">
 								<a class="barra__card"><i class="text__card">25$</i></a>
@@ -84,7 +95,7 @@
 				<div class="item">
 					<div class="card">
 						<div class="content-img"><img src="assets/img/PRODUCTO-2.jpeg" class="card-img-top" alt="producto1"></div>
-						
+
 						<div class="card-body">
 							<div class="cont__card justify-content-between">
 								<a class="barra__card"><i class="text__card">25$</i></a>
@@ -97,7 +108,7 @@
 
 				<div class="item">
 					<div class="card">
-					<div class="content-img"><img src="assets/img/PRODUCTO-2.jpeg" class="card-img-top" alt="producto1"></div>
+						<div class="content-img"><img src="assets/img/PRODUCTO-2.jpeg" class="card-img-top" alt="producto1"></div>
 						<div class="card-body">
 							<div class="cont__card justify-content-between">
 								<a class="barra__card"><i class="text__card">25$</i></a>
@@ -143,6 +154,20 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="mask-miltiple-circle">
+			<div class="circle-ms"></div>
+
+
+			<div class="ovle-middle"></div>
+			<div class="circle-white"></div>
+		</div>
+		<div class="mask-miltiple-circle ms-auto top-0" style="right: 0; left: auto;">
+			<div class="circle-white" style="    margin-top: -39%;margin-right: -7%;margin-left: auto;"></div>
+			<div style="margin-top: 46%; width: fit-content; margin-right: -49px;margin-left: auto;">
+				<div class="icon-circle"> </div>
+				<div class="icon-ovle"></div>
 			</div>
 		</div>
 	</section>
@@ -175,6 +200,7 @@
 	<!-- FIN ABOUT-->
 	<!-- SHOP GALERIA-->
 	<section class="shop__galeria">
+		<div class="rectangular-radius-blue"></div>
 		<h2 class="title__shop">Shop By Category</h2>
 		<div class="container">
 			<div class="row">
@@ -237,9 +263,14 @@
 	</section>
 	<!-- FIN BENEFITCS-->
 	<!-- TESTIMONIALS-->
-	<section class="testimonials">
+	<section class="testimonials bakc-blue-claro pt-0">
+
 		<div class="container">
-			<h3 class="title__tes">What do our customers say</h3>
+			<div class="d-flex">
+				<div class="rectangular-radius-blue m-0" style="    height: 150px;"></div>
+				<h3 class="title__tes">What do our customers say</h3>
+			</div>
+
 			<div class="row">
 				<div class="testimonial-slider owl-carousel">
 					<div class="item d-flex ">
