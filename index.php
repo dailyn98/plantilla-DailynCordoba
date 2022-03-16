@@ -64,6 +64,7 @@
 	<!-- HEADER-->
 	<!-- CAROUSEL PRODUCTS-->
 	<section class="products__carou">
+		<div class="rectangular-radius-blue"></div>
 		<div class="container">
 			<h2 class="title__pro">Best Sellers</h2>
 			<div class="productos-crousel owl-carousel">

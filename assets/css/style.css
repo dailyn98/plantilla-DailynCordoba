@@ -264,6 +264,18 @@ section.abuot .container {
 }
 
 
+/*CLASES UNIVERSALES*/
+
+.rectangular-radius-blue {
+    height: 100px;
+    width: 20px;
+    background: linear-gradient(45deg, #14bcdf, #0176bc);
+    border-radius: 0 0 12px 12px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+
 /*text*/
 
 h4.title__about {
@@ -306,14 +318,12 @@ h4.title__about {
 
 
 /*-- -----------FIN ABOUT-------------------*/
-<<<<<<< HEAD
-.products__carou {
+
+<<<<<<< HEAD .products__carou {
     padding: 50px 0;
 }
-=======
 
-
->>>>>>> 3c2daa0b812ee2351b5862610beade19ccf2bc28
+=======>>>>>>>3c2daa0b812ee2351b5862610beade19ccf2bc28
 /*-------------- Carousel Products-------------*/
 
 .icon_card {
@@ -683,8 +693,10 @@ p {
     margin-bottom: 5px;
 }
 
-.footer__options a:hover {
-    color: #f9b842;
+.footer__options a:hover,
+.foot__icons i:hover {
+    color: #035c92;
+    font-weight: 600;
 }
 
 .cont__footer {
