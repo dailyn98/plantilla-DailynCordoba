@@ -225,12 +225,22 @@
 			</div>
 
 		</div>
-		<button class="btn btn__shop">View More</button>
+	
+	<button class="btn btn__shop mx-auto">View More</button>
+		<div class="mask-cate-shop-left ms-auto">
+			<div class="circle-ms "></div>
+			<div class="ovle-middle"></div>
+		</div>
+		<div class="mask-cate-shop">
+			<div class="circle-ms "></div>
+			<div class="ovle-middle"></div>
+		</div>
+
 	</section>
 	<!-- FIN SHOP GALERIA-->
 
 	<!-- BENEFITCS-->
-	<section class="benefits">
+	<section class="benefits position-relative">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4 img__benef">
@@ -259,6 +269,9 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="mask-miltiple-circle ms-auto top-0" style="right: 0; left: auto;">
+			<div class="circle-white" style="    margin-top: -39%;margin-right: -7%;margin-left: auto; background:#D5F6FB;"></div>
 		</div>
 	</section>
 	<!-- FIN BENEFITCS-->
@@ -315,7 +328,7 @@
 	</section>
 	<!-- FIN TESTIMONIALS-->
 	<!-- subscribeS-->
-	<section class="subscribe">
+	<section class="subscribe position-relative">
 		<div class="container">
 			<div class="row cont__sub">
 				<h2 class="title__sub">Do you want to receive notifications<br> of our products?</h2>
@@ -323,6 +336,16 @@
 					<input type="email" class="sub__email" id="email" placeholder="" name="email">
 					<button class="btn  btn__sub">Subscrib</button>
 				</div>
+			</div>
+		</div>
+		<div class="mask-miltiple-circle">
+			<div class="circle-ms"></div>
+			<div class="ovle-middle"></div>
+		</div>
+		<div class="mask-miltiple-circle ms-auto top-0" style="right: 0; left: auto;">
+			<div style="margin-top: 46%; width: fit-content; margin-right: -49px;margin-left: auto;">
+				<div class="icon-circle"> </div>
+				<div class="icon-ovle"></div>
 			</div>
 		</div>
 	</section>
